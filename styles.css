@@ -1,0 +1,193 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #2f486e;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header-title {
+    font-size: 24px;
+    margin-left: 20px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.menu-button {
+    background-color: #2f486e;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.menu-options {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.menu-options ul {
+    list-style-type: style;
+    padding: 0;
+}
+
+.menu-options ul li {
+    padding: 10px;
+    cursor: pointer; 
+}
+
+.menu-button.active {
+    background-color: #2f486e;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.task-tracker {
+    background: #3c5779 url('NOTEBOOK_ICON.jpg') center/cover no-repeat;
+    background: #3c5779 url('LAPTOP_ICON.jpg') center/cover no-repeat;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+    margin-right: 10px;
+    border: none;
+    border-bottom: 1px solid #333;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #f9d00e;
+    color: #333;
+    border: none;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #f9f9f9;
+}
+
+
+li .actions {
+    display: flex;
+    align-items: center;
+}
+.menu-text {
+    font-size: 24px;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    margin: 0;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.menu-button {
+    background-color: #2f486e;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Style for the dropdown content */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    right: 0;
+}
+
+.dropdown-content a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.dropdown-content a:hover {
+    background-color: #f9d00e;
+    color: #333;
+}
+
+.show {
+    display: block;
+}
+
+button.delete {
+    background-color: #f33;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button.edit {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.task-tracker {
+    background: #2e3c4b;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    
+}
+
+.task-tracker i {
+    font-size: 30px;
+    color: #f9d00e; /* Yellow color */
+    margin: 10px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); 
+}
+
+
+
+
+
